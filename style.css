@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+body{
+    background-color:#f0ead2;
+
+}
+header {
+    background-color:#a98467 ;
+    display: flex; 
+    align-items: center;
+    justify-content:space-between;
+ /* background-attachment: fixed;   */
+
+}
+nav{
+    margin-right: 15px;
+}
+a{
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px ;
+    color: #000;
+    background-color: #adc178;
+    border-radius: 18px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+
+a:hover{
+    color: #6c584c;
+    background-color: #dde5b6;
+}
+
+.logo{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+footer{
+    background-color:#6c584c ;
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+    padding: 25px;
+    color: #dde5b6;
+}
+
+span{
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer{
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    padding: 3px ;
+}
+
+
+
+
+/*
+body color-#f0ead2
+header color- #a98467 
+logo/button background-#adc178
+rodapé-#6c584c
+verde clarinho hover-#dde5b6
+
+*/
