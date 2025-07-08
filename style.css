@@ -8,6 +8,7 @@
 
 
 body{
+    font-family:"Oswald", sans-serif;
     background-color:#f0ead2;
 
 }
@@ -66,8 +67,54 @@ span{
     padding: 3px ;
 }
 
+#inicio{
+ padding: 20px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.esquerda{ 
+    margin-left: 280px;
+}
+
+.direita{
+    margin-bottom: 290px;
+    margin-left: 20px;
+}
+
+.texto-inicio{
+    text-decoration: none;
+    padding: 15px ;
+    color: #000;
+    background-color: #adc178;
+    border-radius: 18px;
+    margin: 15px;
+}
+
+section{
+    padding: 50px;
+}
+
+#equipe{
+    
+}
 
 
+.redes-sociais{
+    
+}
+
+h2{
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    padding: 10px ;
+    background-color: #6c584c;
+    display: flex;
+    justify-content: center;
+
+}
 
 /*
 body color-#f0ead2
