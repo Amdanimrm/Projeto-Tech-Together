@@ -97,11 +97,6 @@ section{
     padding: 50px;
 }
 
-#equipe{
-    
-}
-
-
 .redes-sociais{
     font-size: 13px;
     padding: 3px ;
@@ -115,6 +110,7 @@ h2{
     background-color: #6c584c;
     display: flex;
     justify-content: center;
+    color: #dde5b6;
 
 }
 
@@ -124,5 +120,42 @@ header color- #a98467
 logo/button background-#adc178
 rodapé-#6c584c
 verde clarinho hover-#dde5b6
+ebae54
+#c0b7b1- background td
 
 */
+section{
+  background-color: #ffe0b5;
+  width: 300px;
+  text-align: center;
+  border: solid 3px #0e0d0d;
+  padding: 10px;
+}
+
+table, th, td {
+    border: solid 3px ;
+    padding: 10px;
+}
+#tarefas{
+    text-align: center;
+    padding: 20px;
+}
+.tabela{
+    width: 900px;
+    height: auto;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #6c584c;
+}
+caption{
+    background-color: #9ab416;
+}
+td{
+    background-color: #ffe0b5;
+}
+th{
+    background-color: #adc178;
+}
+table{
+    background-color: #a98467;
+}
