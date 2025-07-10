@@ -17,8 +17,6 @@ header {
     display: flex; 
     align-items: center;
     justify-content:space-between;
- /* background-attachment: fixed;   */
-
 }
 nav{
     margin-right: 15px;
@@ -69,6 +67,10 @@ span{
 
 #inicio{
  padding: 20px;
+ display: flex;
+ justify-content: space-around;
+
+ 
 }
 
 img{
@@ -76,21 +78,28 @@ img{
 }
 
 .esquerda{ 
-    margin-left: 280px;
+    margin-left: 400px;
 }
 
 .direita{
-    margin-bottom: 290px;
-    margin-left: 20px;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+    
+    
 }
 
 .texto-inicio{
-    text-decoration: none;
+    height: 667px; 
+    width: 375px;
     padding: 15px ;
     color: #000;
-    background-color: #adc178;
+    background-color: #a98467;
     border-radius: 18px;
-    margin: 15px;
+    margin-right: 420px;
+
 }
 
 section{
@@ -113,17 +122,17 @@ h2{
     color: #dde5b6;
 
 }
+#equipe{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.integrantes{
+    margin-left: 10px;
+    border-radius: 10px;
+}
 
-/*
-body color-#f0ead2
-header color- #a98467 
-logo/button background-#adc178
-rodapé-#6c584c
-verde clarinho hover-#dde5b6
-ebae54
-#c0b7b1- background td
 
-*/
 section{
   background-color: #ffe0b5;
   width: 300px;
@@ -144,18 +153,66 @@ table, th, td {
     width: 900px;
     height: auto;
     margin: auto;
-    border-collapse: collapse;
     background-color: #6c584c;
+    border-radius: 10px;
 }
-caption{
-    background-color: #9ab416;
-}
+
 td{
     background-color: #ffe0b5;
+    border-radius: 10px;
 }
 th{
     background-color: #adc178;
+    border-radius: 10px;
+
 }
 table{
     background-color: #a98467;
+    border-radius: 10px;
 }
+#Projeto{
+    padding: 30px;
+}
+
+p{
+     padding: 10px;
+}
+.texto-projeto{
+    
+    width: 900px;
+    height: auto;
+    margin: auto;
+    background-color: #adc178;
+    border-radius: 10px;
+    border: solid ;
+}
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    z-index: 99;
+    font-size: 5px;
+    background-color: #adc178;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s
+    
+}
+
+#backToTop:hover {
+    background-color: #dde5b6;
+}
+
+/*
+body color-#f0ead2
+header color- #a98467 
+logo/button background-#adc178
+rodapé-#6c584c
+verde clarinho hover-#dde5b6
+ebae54
+#c0b7b1- background td
+
+*/
