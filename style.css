@@ -73,12 +73,11 @@ span{
  
 }
 
+#curiosidade{
+    color: #dde5b6;
+}
 img{
     border-radius: 20px;
-}
-
-.esquerda{ 
-    margin-left: 400px;
 }
 
 .direita{
@@ -88,17 +87,21 @@ img{
     justify-self: center;
     margin-bottom: 15px;
     
-    
 }
 
+.esquerda{ 
+    margin-left: 190px;
+    margin-right: 90px;
+}
 .texto-inicio{
     height: 667px; 
     width: 375px;
+    margin-right: 400px;
     padding: 15px ;
     color: #000;
     background-color: #a98467;
     border-radius: 18px;
-    margin-right: 420px;
+    
 
 }
 
@@ -203,7 +206,7 @@ p{
 }
 
 #backToTop:hover {
-    background-color: #dde5b6;
+    background-color: #adc178;
 }
 
 /*
