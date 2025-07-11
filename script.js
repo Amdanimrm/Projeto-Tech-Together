@@ -1,4 +1,5 @@
 
+//BOTÃO: AO CLICA-LO, FAZ COM QUE O USUÁRIO RETORNE AO INICIO DA PÁGINA (funcionalidade JS)
 const btn = document.getElementById("backToTop");
 
 // Mostrar botão quando rolar 300px pra baixo

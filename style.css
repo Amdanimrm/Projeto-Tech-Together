@@ -5,19 +5,43 @@
     margin: 0 ;
     padding: 0;
 }
-
+/*OS ESPAÇAMENTOS DA PÁGINA VARIAM DE ACORDO COM CADA ELEMENTO (tentamos o máximo possível kkk)*/
 
 body{
-    font-family:"Oswald", sans-serif;
-    background-color:#f0ead2;
-
+    background-color:#f0ead2; /*COR DE FUNDO DA PÁGINA*/
+    font-family:"Oswald", sans-serif;/*FONTE DO CORPO DA PÁGINA*/
 }
+p{
+     padding: 10px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+h2{
+    font-family: "Orbitron", sans-serif;/*FONTE DOS TÍTULOS*/
+    font-size: 30px;
+    padding: 10px ;
+    background-color: #6c584c;
+    display: flex;
+    justify-content: center;
+    color: #dde5b6;
+}
+
 header {
     background-color:#a98467 ;
     display: flex; 
     align-items: center;
     justify-content:space-between;
 }
+.logo{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    font-family: "Orbitron", sans-serif; /*FONTE DOS TÍTULOS*/
+}
+
 nav{
     margin-right: 15px;
 }
@@ -31,7 +55,6 @@ a{
     border-radius: 18px;
     font-weight: bold;
     margin: 5px;
-
 }
 
 a:hover{
@@ -39,45 +62,14 @@ a:hover{
     background-color: #dde5b6;
 }
 
-.logo{
-    display: flex;
-    padding: 15px;
-    align-items: center;
-    font-family: "Orbitron", sans-serif;
-}
-footer{
-    background-color:#6c584c ;
-    display: flex; 
-    align-items: center;
-    justify-content:center;
-    padding: 25px;
-    color: #dde5b6;
-}
-
-span{
-    font-size: 18px;
-    font-family: "Oswald", sans-serif;
-}
-
-.footer{
-    font-family: "Orbitron", sans-serif;
-    font-size: 13px;
-    padding: 3px ;
-}
-
 #inicio{
  padding: 20px;
  display: flex;
  justify-content: space-around;
-
- 
 }
 
 #curiosidade{
     color: #dde5b6;
-}
-img{
-    border-radius: 20px;
 }
 
 .direita{
@@ -86,13 +78,13 @@ img{
     display: flex;
     justify-self: center;
     margin-bottom: 15px;
-    
 }
 
 .esquerda{ 
     margin-left: 190px;
     margin-right: 90px;
 }
+
 .texto-inicio{
     height: 667px; 
     width: 375px;
@@ -101,40 +93,13 @@ img{
     color: #000;
     background-color: #a98467;
     border-radius: 18px;
-    
-
 }
 
-section{
-    padding: 50px;
-}
-
-.redes-sociais{
-    font-size: 13px;
-    padding: 3px ;
-    background-color:#adc178;
-}
-
-h2{
-    font-family: "Orbitron", sans-serif;
-    font-size: 30px;
-    padding: 10px ;
-    background-color: #6c584c;
-    display: flex;
-    justify-content: center;
-    color: #dde5b6;
-
-}
 #equipe{
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-.integrantes{
-    margin-left: 10px;
-    border-radius: 10px;
-}
-
 
 section{
   background-color: #ffe0b5;
@@ -144,14 +109,25 @@ section{
   padding: 10px;
 }
 
-table, th, td {
-    border: solid 3px ;
-    padding: 10px;
+.integrantes{
+    margin-left: 10px;
+    border-radius: 10px;
 }
+.img-integrantes{ /*TAMANHO FIXO PARA AS IMG DOS INTEGRANTES*/
+    height:200px ;
+    width: 200px;
+}
+.redes-sociais{
+    font-size: 13px;
+    padding: 3px ;
+    background-color:#adc178;
+}
+
 #tarefas{
     text-align: center;
     padding: 20px;
 }
+
 .tabela{
     width: 900px;
     height: auto;
@@ -160,26 +136,30 @@ table, th, td {
     border-radius: 10px;
 }
 
-td{
-    background-color: #ffe0b5;
-    border-radius: 10px;
-}
-th{
-    background-color: #adc178;
-    border-radius: 10px;
-
-}
 table{
     background-color: #a98467;
     border-radius: 10px;
 }
-#Projeto{
-    padding: 30px;
+
+th{
+    background-color: #adc178;
+    border-radius: 10px;
 }
 
-p{
-     padding: 10px;
+td{
+    background-color: #ffe0b5;
+    border-radius: 10px;
 }
+
+table, th, td {
+    border: solid 3px ;
+    padding: 10px;
+}
+
+#Projeto{
+    padding: 20px;
+}
+
 .texto-projeto{
     
     width: 900px;
@@ -189,6 +169,34 @@ p{
     border-radius: 10px;
     border: solid ;
 }
+
+footer{
+    background-color:#6c584c ;
+    padding: 50px;
+}
+
+
+.conteudo-footer{
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+   
+}
+#logo-footer{
+    position:absolute;
+    left:18px;
+}
+.texto-footer{
+color: #dde5b6;
+font-size: 18px;
+}
+
+.footer{
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+    padding: 3px ;
+}
+
 #backToTop {
     display: none;
     position: fixed;
@@ -210,12 +218,10 @@ p{
 }
 
 /*
-body color-#f0ead2
+body color- #f0ead2
 header color- #a98467 
-logo/button background-#adc178
-rodapé-#6c584c
-verde clarinho hover-#dde5b6
-ebae54
-#c0b7b1- background td
-
+button background- #adc178
+rodapé- #6c584c
+hover- #dde5b6
+background td- #ffe0b5
 */
